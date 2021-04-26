@@ -71,7 +71,7 @@ std::vector<int> randomList(int n, int limit){
     return list;
 }
 
-int main(int, char**) {
+int main() {
     std::vector<int> list = randomList(10,25); 
     std::vector<int> ss_list; //selection sort list
     std::vector<int> bs_list; //bubble sort list
